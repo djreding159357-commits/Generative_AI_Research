@@ -4,6 +4,18 @@ REIT6811 Applied Class 6 | Student ID 49536599
 
 This student repository is a fork of the instructor's [KMarshallX/bob_study_allFiles](https://github.com/KMarshallX/bob_study_allFiles) repository. The exercise is to organise the supplied research materials and practise Git version control. The 58 supplied files are empty placeholders, classified by their filenames; they contain no participant data or analysis results.
 
+## 1. Storage and accessibility
+
+Organised storage helps team members find the files they need and avoid working on an old version. Keeping raw data separate from analysis files also makes it easier to check the results. Access should be limited for files containing personal information.
+
+## 2. File storage methods
+
+Consent forms, participant identity records and any identifiable survey responses, interviews, photographs or recordings need restricted access because they can reveal personal or sensitive information. I would store these files in approved university storage and give access only to authorised researchers. This public fork contains only the instructor's empty exercise files.
+
+## 3. Why is a good naming convention important?
+
+Clear file names help the team tell files apart without opening each one ([Harvard Medical School, n.d.](https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions)). For example, `Survey_Data_Responses_February_2024.xlsx` identifies the material and its date. Consistent names also make searching and sorting easier and help people distinguish versions.
+
 ## Project structure
 
 | Folder | Files | Contents |
@@ -14,11 +26,11 @@ This student repository is a fork of the instructor's [KMarshallX/bob_study_allF
 | `drafts_and_reports/` | 4 | Research proposal drafts and final reports |
 | `misc/` | 14 | Information sheets, photographs, workshop material and a poster |
 
-Choose the folder for the material's research purpose, then use its descriptive filename to find the item. Survey reports stay with the survey files; interview reports and consent-form examples stay with qualitative material. README.md and .gitignore remain in the repository root.
+Choose the folder for the material's research purpose, then find the item by its descriptive filename. README.md and .gitignore remain in the repository root.
 
 ## File naming and versions
 
-The instructor's filenames have been retained so the organised files can be matched to the originals. New working files should use clear topic names, underscores and a date or version where needed. For example, `20260916_survey_responses_v01.csv` is a suggested name for a future data file, not a file added in this exercise. Record changes in Git with a short message that explains the change.
+The instructor's filenames have been retained. For future files, use clear topic names, underscores and dates or versions where needed, such as `20260916_survey_responses_v01.csv`. This is a suggested future name; no such data file was created in this exercise.
 
 ## Collaboration guidelines
 
@@ -33,4 +45,4 @@ These are instructions for future collaboration. The optional three-person revie
 
 ## Data access and backup
 
-This fork is public and contains empty teaching files. Real consent forms, identifying interview transcripts and participant photographs would need approved restricted storage. Do not add identifiable research data to this public repository. Keep a separate approved backup and test recovery; Git history alone is not a complete backup plan.
+Keep identifiable research data out of this public fork. Use a separate approved backup and test recovery; Git history alone is not a complete backup plan.
