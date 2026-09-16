@@ -14,35 +14,9 @@ Consent forms, participant identity records and any identifiable survey response
 
 ## 3. Why is a good naming convention important?
 
-Clear file names help the team tell files apart without opening each one ([Harvard Medical School, n.d.](https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions)). For example, `Survey_Data_Responses_February_2024.xlsx` identifies the material and its date. Consistent names also make searching and sorting easier and help people distinguish versions.
+Clear file names help the team tell files apart without opening each one. For example, `Survey_Data_Responses_February_2024.xlsx` identifies the material and its date. Consistent names also make searching and sorting easier and help people distinguish versions.
 
-## Project structure
+##4. Under what scenarios would creating a new branch be useful? (2–3 sentences)
 
-| Folder | Files | Contents |
-| --- | ---: | --- |
-| `literature_review/` | 8 | Reviews, books, white papers and media articles |
-| `quantitative_analysis/` | 16 | Survey questions, CSV and Excel data, Python scripts and survey reports |
-| `qualitative_analysis/` | 16 | Interview transcripts and reports, consent forms and qualitative charts |
-| `drafts_and_reports/` | 4 | Research proposal drafts and final reports |
-| `misc/` | 14 | Information sheets, photographs, workshop material and a poster |
+Creating a new branch is useful when adding a feature, fixing a bug, or testing an idea without affecting the main version of a project. It also allows team members to work independently and merge their changes after testing and review.
 
-Choose the folder for the material's research purpose, then find the item by its descriptive filename. README.md and .gitignore remain in the repository root.
-
-## File naming and versions
-
-The instructor's filenames have been retained. For future files, use clear topic names, underscores and dates or versions where needed, such as `20260916_survey_responses_v01.csv`. This is a suggested future name; no such data file was created in this exercise.
-
-## Collaboration guidelines
-
-1. Read the folder guide and check which repository and branch you are working in.
-2. Fetch and pull the latest changes into your local clone before starting.
-3. Create a branch with a useful name, such as `docs/update-folder-guide`.
-4. Put new files in the appropriate folder, preserve original materials and review the changes before committing.
-5. Commit with a meaningful message, push the branch to your own fork and open a pull request to the agreed project repository.
-6. Ask a team member to review the pull request. Resolve comments and any conflicts before merging, then pull the updated main branch.
-
-These are instructions for future collaboration. The optional three-person review and conflict-resolution exercise has not been completed.
-
-## Data access and backup
-
-Keep identifiable research data out of this public fork. Use a separate approved backup and test recovery; Git history alone is not a complete backup plan.
