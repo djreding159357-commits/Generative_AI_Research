@@ -14,7 +14,7 @@ Consent forms, participant identity records and any identifiable survey response
 
 ## 3. Why is a good naming convention important?
 
-Clear file names help the team tell files apart without opening each one ([Harvard Medical School, n.d.](https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions)). For example, `Survey_Data_Responses_February_2024.xlsx` identifies the material and its date. Consistent names also make searching and sorting easier and help people distinguish versions.
+Clear file names help the team tell files apart without opening each one. For example, `Survey_Data_Responses_February_2024.xlsx` identifies the material and its date. Consistent names also make searching and sorting easier and help people distinguish versions.
 
 ##4. Under what scenarios would creating a new branch be useful? (2–3 sentences)
 
